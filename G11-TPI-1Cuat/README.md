@@ -44,3 +44,5 @@ Al final va a haber una base de datos que guarde los puntajes más altos de ambo
 * Magno - 4, 7
 * Ozafrán - 2, 4
 * Salgado - 3, 5
+
+# link al anterior repo: https://github.com/PioIX/G11-TPI-1Cuat
