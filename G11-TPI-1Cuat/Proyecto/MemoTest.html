@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <div class="area">
+        <ul class="circles">
+    <button class="mainmenu" onclick= "location.href='index.html'">MENU</button>
+    <a href="javascript:abrir()"><button id="ayuda">?</button></a>
+    <div class="ventana" id="vent">
+        <div id="cerrar"><a href="javascript:cerrar()"><img src="Ventanas Emergentes/cerrar.png"></div></a>
+        Reglas del MemoTest
+         <br></br>
+         <p class="texto">El jugador debe ir descubriendo las celdas de a una e ir recordando dónde está cada pieza del par, para así reunirlos y sumar puntos. El objetivo es lograr reunir la mayor cantidad de pares. Concluye cuando todos los pares de la grilla son formados.</p>
+    </div>
+    <h1>MemoTest</h1>
+    <main>
+        <section class="section1"></section>
+        <table>
+            <tr>
+                <td><button value = 0 class=boton id="0" onclick=""></button></td>
+                <td><button value = 0 class=boton id="1" onclick=""></button></td>
+                <td><button value = 0 class=boton id="2" onclick=""></button></td>
+                <td><button value = 0 class=boton id="3" onclick=""></button></td>
+            </tr>
+            <tr>
+                <td><button value=0 class=boton id="4" onclick=""></button></td>
+                <td><button value=0 class=boton id="5" onclick=""></button></td>
+                <td><button value=0 class=boton id="6" onclick=""></button></td>
+                <td><button value=0 class=boton id="7" onclick=""></button></td>
+            </tr>
+            <tr>
+                <td><button value=0 class=boton id="8" onclick=""></button></td>
+                <td><button value=0 class=boton id="9" onclick=""></button></td>
+                <td><button value=0 class=boton id="10" onclick=""></button></td>
+                <td><button value=0 class=boton id="11" onclick=""></button></td>
+            </tr>
+            <tr>
+                <td><button value=0 class=boton id="12" onclick=""></button></td>
+                <td><button value=0 class=boton id="13" onclick=""></button></td>
+                <td><button value=0 class=boton id="14" onclick=""></button></td>
+                <td><button value=0 class=boton id="15" onclick=""></button></td>
+            </tr>
+        </table>
+    </main>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul> 
+</div >
+    <footer>
+        <p></p>
+    </footer>
+    <script src="memotest.js"></script>
+    <script>
+        function abrir(){
+            document.getElementById("vent").style.display="block";
+        }
+        function cerrar(){
+            document.getElementById("vent").style.display="none";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+HAMBRE:"Necesidad de comer",
+AGENDA:"libro o cuaderno donde se apuntan las fechas para no olvidarlas",
+AYUDAR:"dar una mano al otro",
+FALTAR:"carencia de algo",
+COMIDA:"Alimento vital para sobrevivir",
+CAUSAS:"Motivo o razón para obrar de una manera determinada"
+}
