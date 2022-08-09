@@ -45,4 +45,5 @@ Al final va a haber una base de datos que guarde los puntajes más altos de ambo
 * Ozafrán - 2, 4
 * Salgado - 3, 5
 
+# link al replit con el Flask: https://replit.com/@Damian-EfrainEf/PioIXG11-TPI-1Cuat-2?from=notifications#main.py
 # link al anterior repo: https://github.com/PioIX/G11-TPI-1Cuat
