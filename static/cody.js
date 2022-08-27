@@ -124,7 +124,7 @@ function palabraEstaMal(id) {
   console.log("esa no");
   let palabraQueEstaBien = document.getElementById(id);
   // palabraQueEstaBien.style.color = 'red';
-  // a continuacion pensar efecto para dejar marcado que la palabra esta mal
+  // a continuacion pensar efecto para dejar marcado que la palabra esta mal, como poner algun borde en rojo
 }
 
 
